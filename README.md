@@ -20,6 +20,6 @@ Download the latest version from Releases.
 
 ## Usage
 
-1. Run QR-Code-Reader.exe
+1. Run ScreenQR.exe
 2. Select a QR code on screen
 3. The result will automatically be copied

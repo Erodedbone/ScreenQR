@@ -11,6 +11,7 @@
     <ApplicationManifest>app.manifest</ApplicationManifest>
     <ApplicationIcon>ScreenQR.ico</ApplicationIcon>
     <Version>1.3.0</Version>
+    <IncludeSourceRevisionInInformationalVersion>false</IncludeSourceRevisionInInformationalVersion>
     <Authors>ScreenQR contributors</Authors>
     <Description>Lightweight screen QR code scanner for Windows 11.</Description>
     <RuntimeIdentifiers>win-x64</RuntimeIdentifiers>

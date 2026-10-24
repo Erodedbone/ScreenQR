@@ -16,6 +16,7 @@ This draft is prepared for review. Do not publish it until the pull request is a
 - Test selection on physical multi-monitor arrangements at 100%, 125%, and 150% scaling, including monitors with negative virtual coordinates.
 - Smoke-test the global hotkey, tray menu, clipboard, startup setting, result window, failure notification, and multi-code selection.
 - Build fresh installer and portable artifacts; verify hashes, version metadata, and behavior on a clean Windows 10/11 x64 machine.
+- Rebuild the installer from a documented installer configuration. Do not reuse the v1.2.0 wrapper without fixing and retesting its silent install/uninstall behavior.
 - If the binaries remain unsigned, state this clearly in the release notes.
 
 ## Proposed assets

@@ -8,7 +8,7 @@ All notable changes to ScreenQR are documented here. The format follows [Keep a 
 
 - Multiple QR code detection within one selected region.
 - Explicit confirmation showing the destination and host before opening HTTP/HTTPS links.
-- Automated checks for multiple-code decoding, blank images, mixed-DPI coordinate mapping, and URL safety policy.
+- Automated checks for multiple-code decoding, blank images, result-window behavior, mixed-DPI coordinate mapping, URL safety policy, and the default hotkey.
 - English and Simplified Chinese project documentation.
 
 ### Changed

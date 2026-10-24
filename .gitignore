@@ -1,0 +1,39 @@
+# Build output
+bin/
+obj/
+artifacts/
+publish/
+
+# Visual Studio and VS Code
+.vs/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# JetBrains IDEs
+.idea/
+*.sln.iml
+
+# Test and coverage output
+TestResults/
+coverage/
+*.coverage
+*.coveragexml
+
+# NuGet and package artifacts
+*.nupkg
+*.snupkg
+packages/
+
+# Publish and installer output
+*.appx
+*.msix
+*.msixbundle
+*.zip
+
+# Operating system files
+Thumbs.db
+Desktop.ini
+.DS_Store

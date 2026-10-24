@@ -1,0 +1,9 @@
+ScreenQR uses ZXing.Net.Bindings.Windows.Compatibility and ZXing.Net.
+
+ZXing.Net is licensed under the Apache License, Version 2.0.
+Project: https://github.com/micjahn/ZXing.Net
+Package: https://www.nuget.org/packages/ZXing.Net.Bindings.Windows.Compatibility/0.16.16
+License: https://www.apache.org/licenses/LICENSE-2.0
+
+The dependency is consumed as a package; no ZXing.Net source code is copied
+into the ScreenQR source tree.

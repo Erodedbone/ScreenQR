@@ -31,18 +31,18 @@ No application framework or background service is required beyond the self-conta
 
 - Windows 10 or Windows 11, x64
 - A graphical desktop session
-- The .NET runtime is included in the published installer and portable executable
+- The .NET runtime is included in the published portable executable
 
 Building from source requires the .NET 10 SDK on Windows.
 
 ## Install and use
 
-Download a published build from the [ScreenQR 1.2.0 release](https://github.com/Erodedbone/ScreenQR/releases/tag/v1.2.0):
+Download the published portable build from the [ScreenQR 1.3.0 release](https://github.com/Erodedbone/ScreenQR/releases/tag/v1.3.0):
 
-- [Installer (`ScreenQR-Setup-1.2.0.exe`)](https://github.com/Erodedbone/ScreenQR/releases/download/v1.2.0/ScreenQR-Setup-1.2.0.exe)
-- [Portable executable (`ScreenQR-1.2.0-portable.exe`)](https://github.com/Erodedbone/ScreenQR/releases/download/v1.2.0/ScreenQR-1.2.0-portable.exe)
+- [Portable executable (`ScreenQR-1.3.0-portable.exe`)](https://github.com/Erodedbone/ScreenQR/releases/download/v1.3.0/ScreenQR-1.3.0-portable.exe)
+- [SHA-256 checksums (`ScreenQR-1.3.0-SHA256SUMS.txt`)](https://github.com/Erodedbone/ScreenQR/releases/download/v1.3.0/ScreenQR-1.3.0-SHA256SUMS.txt)
 
-The release above contains version 1.2.0. Changes currently on the default branch may not have a matching published binary until a newer release is reviewed and published.
+Release pages contain builds made from reviewed tags. The default branch may contain newer changes that are not yet available as published binaries.
 
 1. Start `ScreenQR.exe` or the portable executable. ScreenQR remains in the notification area.
 2. Press **Win + Alt + Q**, or double-click the tray icon.

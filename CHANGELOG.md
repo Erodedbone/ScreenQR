@@ -4,6 +4,8 @@ All notable changes to ScreenQR are documented here. The format follows [Keep a 
 
 ## [Unreleased]
 
+## [1.3.0] - 2026-10-30
+
 ### Added
 
 - Multiple QR code detection within one selected region.
@@ -31,5 +33,6 @@ All notable changes to ScreenQR are documented here. The format follows [Keep a 
 - Configurable global hotkey, system tray controls, and optional per-user startup.
 - Installer and portable x64 executables.
 
-[Unreleased]: https://github.com/Erodedbone/ScreenQR/compare/v1.2.0...HEAD
+[Unreleased]: https://github.com/Erodedbone/ScreenQR/compare/v1.3.0...HEAD
+[1.3.0]: https://github.com/Erodedbone/ScreenQR/compare/v1.2.0...v1.3.0
 [1.2.0]: https://github.com/Erodedbone/ScreenQR/releases/tag/v1.2.0

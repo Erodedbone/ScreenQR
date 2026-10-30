@@ -30,18 +30,18 @@ ScreenQR 是一款轻量的 Windows 屏幕二维码识别工具。按下全局�
 
 - Windows 10 或 Windows 11，x64
 - 可用的图形桌面会话
-- 安装版和便携版均包含 .NET 运行时
+- 已发布的便携版包含 .NET 运行时
 
 从源码构建需要 Windows 环境和 .NET 10 SDK。
 
 ## 安装与使用
 
-从 [ScreenQR 1.2.0 Release](https://github.com/Erodedbone/ScreenQR/releases/tag/v1.2.0) 下载已发布版本：
+从 [ScreenQR 1.3.0 Release](https://github.com/Erodedbone/ScreenQR/releases/tag/v1.3.0) 下载已发布的便携版：
 
-- [安装版 `ScreenQR-Setup-1.2.0.exe`](https://github.com/Erodedbone/ScreenQR/releases/download/v1.2.0/ScreenQR-Setup-1.2.0.exe)
-- [便携版 `ScreenQR-1.2.0-portable.exe`](https://github.com/Erodedbone/ScreenQR/releases/download/v1.2.0/ScreenQR-1.2.0-portable.exe)
+- [便携版 `ScreenQR-1.3.0-portable.exe`](https://github.com/Erodedbone/ScreenQR/releases/download/v1.3.0/ScreenQR-1.3.0-portable.exe)
+- [SHA-256 校验值 `ScreenQR-1.3.0-SHA256SUMS.txt`](https://github.com/Erodedbone/ScreenQR/releases/download/v1.3.0/ScreenQR-1.3.0-SHA256SUMS.txt)
 
-以上资产对应 1.2.0。默认分支上的新修改在审核并发布新版本前，不一定有对应的可执行文件。
+Release 页面只包含从已审核标签构建的版本；默认分支可能包含尚未形成发布二进制的新修改。
 
 1. 启动 `ScreenQR.exe` 或便携版程序，应用会进入通知区域。
 2. 按 **Win + Alt + Q**，也可以双击托盘图标。

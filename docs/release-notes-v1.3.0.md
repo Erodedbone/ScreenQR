@@ -1,25 +1,61 @@
-# ScreenQR 1.3.0 — draft release notes
+# ScreenQR 1.3.0
 
-This draft is prepared for review. Do not publish it until the pull request is approved and the release artifacts are rebuilt from the approved commit.
+ScreenQR 1.3.0 improves multi-code scanning, mixed-DPI accuracy, user feedback, and URL safety. Source code, automated checks, licensing, changelog, and bilingual documentation are now maintained directly in the repository.
 
 ## Highlights
 
-- Select and decode multiple QR codes in one scan.
-- More reliable selection coordinates when monitors use different DPI scaling.
-- Clearer success and failure feedback.
-- Safer URL handling: only HTTP/HTTPS links are eligible, embedded credentials are rejected, and the full destination must be confirmed before opening.
-- Source code, tests, license, changelog, and bilingual documentation are now maintained directly in the repository.
+- Decode one or multiple QR codes from the same screen selection.
+- Improve selection-coordinate mapping on mixed-DPI displays.
+- Show clearer success, failure, and multiple-result feedback.
+- Open only absolute HTTP/HTTPS links with a host, reject embedded credentials, and require confirmation before opening.
+- Add regression coverage for decoding, blank images, result behavior, DPI mapping, URL policy, and the default hotkey.
 
-## Verification before publishing
+## Download
 
-- Build and run the automated test program from the final release commit.
-- Test selection on physical multi-monitor arrangements at 100%, 125%, and 150% scaling, including monitors with negative virtual coordinates.
-- Smoke-test the global hotkey, tray menu, clipboard, startup setting, result window, failure notification, and multi-code selection.
-- Build fresh installer and portable artifacts; verify hashes, version metadata, and behavior on a clean Windows 10/11 x64 machine.
-- Rebuild the installer from a documented installer configuration. Do not reuse the v1.2.0 wrapper without fixing and retesting its silent install/uninstall behavior.
-- If the binaries remain unsigned, state this clearly in the release notes.
+- Portable, Windows x64: `ScreenQR-1.3.0-portable.exe`
+- SHA-256 checksums: `ScreenQR-1.3.0-SHA256SUMS.txt`
 
-## Proposed assets
+The portable build is self-contained and includes the required .NET runtime.
 
-- `ScreenQR-Setup-1.3.0.exe`
-- `ScreenQR-1.3.0-portable.exe`
+> Security notice: the executable is not code-signed. Windows may show a Microsoft Defender SmartScreen or reputation warning. Verify the SHA-256 checksum before running it.
+
+## Requirements and limitations
+
+- Windows 10 or Windows 11, x64.
+- QR Code symbols only; camera and image-file import are not included.
+- Very small, blurred, low-contrast, partially covered, or heavily distorted codes may not decode.
+- Mixed-DPI mapping has automated coverage, but individual physical multi-monitor layouts may behave differently.
+
+**Full changelog:** https://github.com/Erodedbone/ScreenQR/compare/v1.2.0...v1.3.0
+
+---
+
+## ScreenQR 1.3.0（简体中文）
+
+ScreenQR 1.3.0 改进了多二维码识别、混合 DPI 坐标准确性、操作反馈和 URL 安全策略。源码、自动检查、许可证、更新日志和中英文文档现已直接维护在仓库中。
+
+### 主要变化
+
+- 同一次屏幕框选可识别一个或多个二维码。
+- 改进混合 DPI 显示器上的框选坐标映射。
+- 提供更清楚的成功、失败和多结果反馈。
+- 只允许打开带主机名的绝对 HTTP/HTTPS 地址，拒绝嵌入凭据，并在打开前要求确认。
+- 增加二维码识别、空白图、结果窗口、DPI 映射、URL 策略和默认快捷键的回归检查。
+
+### 下载
+
+- Windows x64 便携版：`ScreenQR-1.3.0-portable.exe`
+- SHA-256 校验值：`ScreenQR-1.3.0-SHA256SUMS.txt`
+
+便携版已经包含所需的 .NET 运行时，无需单独安装。
+
+> 安全提示：该程序目前没有代码签名，Windows 可能显示 Microsoft Defender SmartScreen 或信誉警告。运行前请核对 SHA-256 校验值。
+
+### 系统要求与限制
+
+- Windows 10 或 Windows 11，x64。
+- 仅识别二维码；暂不提供摄像头或图片文件导入。
+- 二维码过小、模糊、低对比度、被遮挡或严重变形时可能无法识别。
+- 混合 DPI 映射已有自动测试，但不同的真实多显示器布局仍可能存在差异。
+
+**完整变更：** https://github.com/Erodedbone/ScreenQR/compare/v1.2.0...v1.3.0
